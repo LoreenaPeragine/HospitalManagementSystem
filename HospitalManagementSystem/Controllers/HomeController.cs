@@ -18,6 +18,11 @@ namespace HospitalManagementSystem.Controllers
             return View();
         }
 
+        public IActionResult admin_add_appointment()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
